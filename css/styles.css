@@ -1,0 +1,268 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color:#edf7f6;
+	font-family: 'Roboto Mono', monospace;}
+
+#header-nav {
+	background-color: #51e2f5;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background-image: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/simotarra%201%20kopio.png");
+	width: 200px;
+	height: 175px;
+	margin: 10px 10px 10px 0px
+}
+
+.navbar-brand h1{
+	font-family: 'Bungee', cursive;
+	font-size: 5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: .75;
+	color: #ffa8B6;
+	text-shadow: 3px 3px 0 #a28089;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+
+}
+.navbar-brand p {
+	color:black;
+	font-style: bold;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	margin-top: 15px;
+}
+
+.navbar-brand p span {
+	vertical-align: middle;
+}
+
+.navbar-toggle {
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+#nav-list {
+	margin-top: 10px
+}
+#nav-list a {
+	color: black;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #DCDCDC;
+}
+#nav-list a span {
+	font-size: 1.8em;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;}
+
+article {
+	margin: 10px;
+	margin-bottom: 55px;
+}
+
+.horinaa p {
+	font-size: .6em;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.horinaa h2 {
+	font-family: 'Bungee', cursive;
+	margin-top: 55px;
+}
+
+#specials-tile, #menu-tile, #map-tile{
+ 	height: 183px;
+ 	width: 250px;
+ 	margin-bottom: 15px;
+ 	position: relative;
+ 	border: 2px solid #a28089;
+ 	overflow: hidden;
+ }
+
+  {
+ 	height: 183px;
+ 	width: px;
+ 	margin-bottom: 15px;
+ 	position: relative;
+ 	border: 2px solid #a28089;
+ 	overflow: hidden;
+ }
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+	background: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/nena%CC%88.png") no-repeat;
+	background-position: center;
+}
+
+#specials-tile {
+	background: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/nena%CC%88.png") no-repeat;
+	background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #ffa8B6;
+	opacity: .8;
+}
+
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #a28089;
+	border-top: 0;
+}
+
+.panel-footer div.row {
+	margin-bottom: 35px;
+}
+
+#hours, #address {
+	line-height: 2;
+}
+#hours > span, #address > span {
+	font-size: 1.3em;
+}
+
+/* SIMON ERIKOISHERKKUSIVU*/ 
+.category-tile {
+	position: relative;
+	width: 200px;
+	height: 150px;
+	border: 2px solid #a28089;
+	margin: 0 auto 15px;
+}
+
+.category-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #ffa8B6;
+	color: #fff;
+	opacity: 0.8;
+}
+.category-tile:hover {
+	background-color: #ffa8B6;
+}
+
+#menu-categories-title + div {
+	margin-bottom: 50px;
+}
+
+@media (min-width: 1200px) {
+	.container .jumbotron {
+		background: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/simo%20matala.jpg") no-repeat;
+		height: 670px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container .jumbotron {
+		background: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/PK%20simo%20md.jpg") no-repeat;
+		height: 744px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container .jumbotron {
+		background: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/PK%20simo%20pieni.jpg") no-repeat;
+		height: 576px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.container .jumbotron {
+		background: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/minisimo.jpg") no-repeat;
+		height: 427px;
+	}
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p {
+		text-transform: uppercase;
+		font-size: .6em;
+		margin-top: 12px;		
+	}
+	.collapsable-nav a {
+		font-size: 1.2em;
+	}
+
+	.collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	#collapsable-nav a {
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+}
+
+
+
+
+
